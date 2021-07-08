@@ -1,0 +1,28 @@
+{
+  "name": "allbirds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.12",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.14",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.26.14",
+    "core-js": "^3.10.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "jQuery": "^1.7.4",
+    "minify": "^7.0.1",
+    "rename": "^1.0.4",
+    "webpack-stream": "^6.1.2"
+  }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>form</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./assets/sass/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+	<main>
+		<section class="info product__form_style">
+			<div class="container">
+				<div class="info__wrapp">
+					<form action="#" class="form animate__animated animate__fadeInUp">
+						<div class="wrapp__block new_product">
+							<div class="wrapp__scroll">
+								<div class="form__wrapp_label">
+									<h3>Info</h3>
+									<label for="form-email">
+										Enter your email address 
+										<input required id="form-email" type="email" placeholder="team@checkforpatent.com">
+									</label>
+								</div>
+								<div class="form__product_wrapp">
+									<div class="form__wrapp_label product">
+										<h3>Product 1</h3>
+										<label for="form-product">
+											Enter main keyword for the product 
+											<input id="form-product" type="text" placeholder="for example, sylicon wine cup">
+										</label>
+										<label for="form-link">
+											Enter link to the similar product as a reference
+											<input type="text" id="form-link" placeholder="https://...">
+										</label>
+									</div>
+								</div>
+								<div class="form__add-product">
+									<a href="#">
+										Add more products
+										<i class="bi bi-plus-lg add"></i>
+									</a>
+								</div>
+								<p class="discount">
+									We offer discount up to 36% for multiple checks
+								</p>
+							</div>
+							<button type="submit" class="btn render__price">Submit and Pay 24.99 USD</button>
+							<div class="form__secure_payment">
+								<i class="bi bi-lock-fill"></i>
+								<p>Secure payment with Stripe</p>
+							</div>
+						</div>
+					</form>
+				</div>	
+			</div>
+		</section>
+
+
+
+		<section class="adding-products product__form_style animate__animated animate__fadeInUp">
+			<div class="container">
+				<div class="adding-products__wrapp">
+					<form action="#" class="form-adding-products form">
+						<div class="wrapp__block">
+							<div class="adding-products__header">
+								<h3>Adding more products</h3>
+								<p>The more items you check, the better the price.</p>
+							</div>
+							<ul class="form-adding__block">
+
+							</ul>
+							<button type="submit" class="btn">Continue</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+
+
+		
+
+		
+
+		<!-- <div class="form__wrapp_label product new">
+			<h3>Product 1</h3>
+			<label for="form-product-add">
+				Enter main keyword for the product 
+				<input id="form-product-add" type="text" placeholder="for example, sylicon wine cup">
+			</label>
+			<label for="form-link-add">
+				Enter link to the similar product as a reference
+				<input type="text" id="form-link-add" placeholder="https://...">
+			</label>
+		</div> -->
+
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
